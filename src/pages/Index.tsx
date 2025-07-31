@@ -168,7 +168,7 @@ const Index = () => {
             <Icon name="Car" size={24} className="text-auto-red" />
             <span className="text-xl font-bold">Драйв Авто</span>
           </div>
-          <p className="opacity-75">© 2024 Драйв Авто. Официальный дилер китайских автомобилей</p>
+          <p className="opacity-75"></p>
         </div>
       </footer>
     </div>

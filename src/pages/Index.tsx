@@ -29,7 +29,7 @@ const Index = () => {
       id: 4,
       name: "Лада Нива",
       price: "от 850,000 ₽",
-      image: "/img/71c36950-3419-4cc5-9b04-eb281e0c58a3.jpg",
+      image: "https://cdn.poehali.dev/files/713edacc-160d-4229-a88f-9ac62df1097e.png",
       features: ["Полный привод", "Внедорожник", "Российская классика"]
     },
     {

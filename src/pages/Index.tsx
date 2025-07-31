@@ -43,7 +43,7 @@ const Index = () => {
       id: 6,
       name: "Лада Веста",
       price: "от 950,000 ₽",
-      image: "/img/98ec6aa0-402c-470e-8f44-d260715c9ba3.jpg",
+      image: "https://cdn.poehali.dev/files/5ec25dfa-56ea-44e3-b19b-c8ccf653445c.jpg",
       features: ["Просторный салон", "Современный дизайн", "Российское производство"]
     }
   ];

@@ -187,7 +187,7 @@ const Index = () => {
                         <p className="text-gray-600 mb-4">Покупка автомобиля в кредит через наших банков-партнёров. </p>
                         <div className="space-y-2">
                           <div className="flex items-center text-auto-red">
-                            <span className="font-medium">От 3.9% годовых</span>
+                            <span className="font-medium"></span>
                           </div>
                           <div className="flex items-center text-auto-red">
                             <span className="font-medium"></span>

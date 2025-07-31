@@ -60,7 +60,7 @@ const Index = () => {
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#cars" className="hover:text-auto-red transition-colors">Автомобили</a>
-              <a href="#credit" className="hover:text-auto-red transition-colors">Кредит</a>
+              <a href="#credit" className="hover:text-auto-red transition-colors"></a>
               <a href="#contacts" className="hover:text-auto-red transition-colors">Контакты</a>
             </nav>
             <Button className="bg-auto-red hover:bg-red-600 text-white">

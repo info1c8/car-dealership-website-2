@@ -8,7 +8,7 @@ const Index = () => {
       id: 1,
       name: "Лада Гранта",
       price: "от 750,000 ₽",
-      image: "/img/2302f0f9-0c6a-47c3-bafb-d7d2087a901a.jpg",
+      image: "https://cdn.poehali.dev/files/2c42ad64-c4d3-4cf3-bdaf-07da6868548e.png",
       features: ["Бензин", "Механика", "Российский автопром"]
     },
     {

@@ -146,7 +146,7 @@ const Index = () => {
                     <span className="text-gray-600">09:00 - 18:00</span>
                   </div>
                   <div className="flex justify-between items-center py-3">
-                    <span className="font-semibold text-auto-navy">Праздничные дни</span>
+                    <span className="font-semibold text-auto-navy"></span>
                     <span className="text-gray-600">По договорённости</span>
                   </div>
                 </div>

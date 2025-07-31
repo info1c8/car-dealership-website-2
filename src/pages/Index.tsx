@@ -190,7 +190,7 @@ const Index = () => {
                             <span className="font-medium">От 3.9% годовых</span>
                           </div>
                           <div className="flex items-center text-auto-red">
-                            <span className="font-medium">Срок до 7 лет</span>
+                            <span className="font-medium"></span>
                           </div>
                           <div className="flex items-center text-auto-red">
                             <span className="font-medium"></span>

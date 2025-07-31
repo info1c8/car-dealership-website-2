@@ -36,7 +36,7 @@ const Index = () => {
       id: 5,
       name: "Volkswagen Polo",
       price: "от 1,200,000 ₽",
-      image: "/img/fedb20b5-3a6a-40ca-9b71-b497d2fb57c1.jpg",
+      image: "https://cdn.poehali.dev/files/c77dd384-e72b-45bc-b9f9-2926b8bd77db.png",
       features: ["Немецкое качество", "Экономичность", "Комфорт"]
     },
     {

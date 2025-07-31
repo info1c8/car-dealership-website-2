@@ -63,9 +63,11 @@ const Index = () => {
               <a href="#credit" className="hover:text-auto-red transition-colors"></a>
               <a href="#contacts" className="hover:text-auto-red transition-colors">Контакты</a>
             </nav>
-            <Button className="bg-auto-red hover:bg-red-600 text-white">
-              <Icon name="Phone" size={16} className="mr-2" />
-              Звонок
+            <Button asChild className="bg-auto-red hover:bg-red-600 text-white">
+              <a href="tel:+79287361139">
+                <Icon name="Phone" size={16} className="mr-2" />
+                Звонок
+              </a>
             </Button>
           </div>
         </div>

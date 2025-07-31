@@ -184,7 +184,7 @@ const Index = () => {
                       </div>
                       <div>
                         <h4 className="text-2xl font-bold text-auto-navy mb-3">Кредит через банк</h4>
-                        <p className="text-gray-600 mb-4">Покупка автомобиля в кредит через наших банков-партнёров. </p>
+                        <p className="text-gray-600 mb-4">Покупка автомобиля в кредит через  банк</p>
                         <div className="space-y-2">
                           <div className="flex items-center text-auto-red">
                             <span className="font-medium"></span>

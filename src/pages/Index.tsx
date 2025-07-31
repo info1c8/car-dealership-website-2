@@ -147,7 +147,7 @@ const Index = () => {
                   </div>
                   <div className="flex justify-between items-center py-3">
                     <span className="font-semibold text-auto-navy"></span>
-                    <span className="text-gray-600">По договорённости</span>
+                    <span className="text-gray-600"></span>
                   </div>
                 </div>
               </div>

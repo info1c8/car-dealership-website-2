@@ -13,10 +13,10 @@ const Index = () => {
     },
     {
       id: 2,
-      name: "RedWind Sedan",
-      price: "от 2,350,000 ₽", 
+      name: "Hyundai Solaris",
+      price: "от 900,000 ₽", 
       image: "/img/5bbda306-2237-4f3e-8512-05fef6b2a646.jpg",
-      features: ["Гибрид", "520 км", "Автопилот"]
+      features: ["АКПП", "Комфорт", "Надёжность"]
     },
     {
       id: 3,

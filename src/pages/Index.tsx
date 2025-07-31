@@ -15,7 +15,7 @@ const Index = () => {
       id: 2,
       name: "Hyundai Solaris",
       price: "от 900,000 ₽", 
-      image: "/img/5bbda306-2237-4f3e-8512-05fef6b2a646.jpg",
+      image: "https://cdn.poehali.dev/files/21d65439-43f8-41e9-bde9-a1af7eedc3ac.jfif",
       features: ["АКПП", "Комфорт", "Надёжность"]
     },
     {

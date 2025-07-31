@@ -157,7 +157,8 @@ const Index = () => {
                 <Icon name="MapPin" size={24} className="text-white" />
               </div>
               <h4 className="text-xl font-semibold mb-2">Адрес</h4>
-              <p className="opacity-90">ЧР, Надтеречный район, с. Надтеречное, ул. Им. М.С. Такаева, д. 22</p>
+              <p className="opacity-90">ЧР, Надтеречный район, с. Надтеречное,
+ ул. Им. М.С. Такаева, д. 22</p>
               <p className="opacity-90"></p>
             </div>
             

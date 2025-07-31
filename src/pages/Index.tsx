@@ -6,10 +6,10 @@ const Index = () => {
   const cars = [
     {
       id: 1,
-      name: "DragonForce SUV",
-      price: "от 2,890,000 ₽",
-      image: "/img/4eb04fc8-6ea8-4ee1-bd04-151f3be1d459.jpg",
-      features: ["Электрический", "450 км", "0-100 за 4.2с"]
+      name: "Лада Гранта",
+      price: "от 750,000 ₽",
+      image: "/img/2302f0f9-0c6a-47c3-bafb-d7d2087a901a.jpg",
+      features: ["Бензин", "Механика", "Российский автопром"]
     },
     {
       id: 2,

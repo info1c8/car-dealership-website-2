@@ -142,29 +142,12 @@ const Index = () => {
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <div className="space-y-4">
                   <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                    <span className="font-semibold text-auto-navy">Понедельник - Пятница</span>
-                    <span className="text-gray-600">9:00 - 20:00</span>
-                  </div>
-                  <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                    <span className="font-semibold text-auto-navy">Суббота</span>
-                    <span className="text-gray-600">10:00 - 18:00</span>
-                  </div>
-                  <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                    <span className="font-semibold text-auto-navy">Воскресенье</span>
-                    <span className="text-gray-600">11:00 - 16:00</span>
+                    <span className="font-semibold text-auto-navy">Ежедневно без выходных</span>
+                    <span className="text-gray-600">09:00 - 18:00</span>
                   </div>
                   <div className="flex justify-between items-center py-3">
                     <span className="font-semibold text-auto-navy">Праздничные дни</span>
                     <span className="text-gray-600">По договорённости</span>
-                  </div>
-                </div>
-                
-                <div className="mt-6 p-4 bg-auto-red bg-opacity-10 rounded-lg">
-                  <div className="flex items-center">
-                    <Icon name="Clock" size={20} className="text-auto-red mr-3" />
-                    <p className="text-auto-navy font-medium">
-                      Тест-драйв доступен в любое рабочее время
-                    </p>
                   </div>
                 </div>
               </div>

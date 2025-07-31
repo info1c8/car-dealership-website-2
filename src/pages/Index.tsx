@@ -112,10 +112,6 @@ const Index = () => {
                     </div>
                     
                     <div className="flex gap-2">
-                      <Button className="flex-1 bg-auto-red hover:bg-red-600 text-white">
-                        <Icon name="ShoppingCart" size={16} className="mr-2" />
-                        Купить
-                      </Button>
                       <Button variant="outline" className="border-auto-navy text-auto-navy hover:bg-auto-navy hover:text-white">
                         <Icon name="Info" size={16} />
                       </Button>

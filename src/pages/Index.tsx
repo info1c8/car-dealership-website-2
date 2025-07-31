@@ -193,7 +193,7 @@ const Index = () => {
                             <span className="font-medium">Срок до 7 лет</span>
                           </div>
                           <div className="flex items-center text-auto-red">
-                            <span className="font-medium">Первый взнос от 0%</span>
+                            <span className="font-medium"></span>
                           </div>
                         </div>
                       </div>

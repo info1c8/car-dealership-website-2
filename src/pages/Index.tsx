@@ -56,9 +56,7 @@ const Index = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center animate-fade-in">
             <h2 className="text-5xl md:text-7xl font-bold mb-6">Автосалон</h2>
-            <p className="text-xl md:text-2xl mb-8 opacity-90">
-              Новое поколение электромобилей с передовыми технологиями
-            </p>
+            <p className="text-xl md:text-2xl mb-8 opacity-90">Дорога начинается здесь!</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-auto-red hover:bg-red-600 text-white animate-scale-in">
                 <Icon name="Eye" size={20} className="mr-2" />

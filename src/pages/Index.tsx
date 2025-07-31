@@ -132,7 +132,112 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Working Hours & Payment Methods Section */}
+      <section className="py-20 bg-auto-gray">
+        <div className="container mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Working Hours */}
+            <div className="animate-fade-in">
+              <h3 className="text-4xl font-bold text-auto-navy mb-8">График работы</h3>
+              <div className="bg-white rounded-lg shadow-lg p-8">
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center py-3 border-b border-gray-200">
+                    <span className="font-semibold text-auto-navy">Понедельник - Пятница</span>
+                    <span className="text-gray-600">9:00 - 20:00</span>
+                  </div>
+                  <div className="flex justify-between items-center py-3 border-b border-gray-200">
+                    <span className="font-semibold text-auto-navy">Суббота</span>
+                    <span className="text-gray-600">10:00 - 18:00</span>
+                  </div>
+                  <div className="flex justify-between items-center py-3 border-b border-gray-200">
+                    <span className="font-semibold text-auto-navy">Воскресенье</span>
+                    <span className="text-gray-600">11:00 - 16:00</span>
+                  </div>
+                  <div className="flex justify-between items-center py-3">
+                    <span className="font-semibold text-auto-navy">Праздничные дни</span>
+                    <span className="text-gray-600">По договорённости</span>
+                  </div>
+                </div>
+                
+                <div className="mt-6 p-4 bg-auto-red bg-opacity-10 rounded-lg">
+                  <div className="flex items-center">
+                    <Icon name="Clock" size={20} className="text-auto-red mr-3" />
+                    <p className="text-auto-navy font-medium">
+                      Тест-драйв доступен в любое рабочее время
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            {/* Payment Methods */}
+            <div className="animate-scale-in">
+              <h3 className="text-4xl font-bold text-auto-navy mb-8">Способы покупки</h3>
+              <div className="space-y-6">
+                <Card className="shadow-lg border-0">
+                  <CardContent className="p-8">
+                    <div className="flex items-start">
+                      <div className="bg-auto-red rounded-full p-4 mr-6">
+                        <Icon name="Banknote" size={32} className="text-white" />
+                      </div>
+                      <div>
+                        <h4 className="text-2xl font-bold text-auto-navy mb-3">Наличный расчёт</h4>
+                        <p className="text-gray-600 mb-4">
+                          Полная оплата автомобиля наличными средствами. Быстрое оформление и получение автомобиля в день покупки.
+                        </p>
+                        <div className="flex items-center text-green-600">
+                          <Icon name="CheckCircle" size={16} className="mr-2" />
+                          <span className="font-medium">Скидка до 50,000 ₽</span>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="shadow-lg border-0">
+                  <CardContent className="p-8">
+                    <div className="flex items-start">
+                      <div className="bg-auto-navy rounded-full p-4 mr-6">
+                        <Icon name="CreditCard" size={32} className="text-white" />
+                      </div>
+                      <div>
+                        <h4 className="text-2xl font-bold text-auto-navy mb-3">Кредит через банк</h4>
+                        <p className="text-gray-600 mb-4">
+                          Покупка автомобиля в кредит через наших банков-партнёров. Минимальный первоначальный взнос и выгодные условия.
+                        </p>
+                        <div className="space-y-2">
+                          <div className="flex items-center text-auto-red">
+                            <Icon name="Percent" size={16} className="mr-2" />
+                            <span className="font-medium">От 3.9% годовых</span>
+                          </div>
+                          <div className="flex items-center text-auto-red">
+                            <Icon name="Calendar" size={16} className="mr-2" />
+                            <span className="font-medium">Срок до 7 лет</span>
+                          </div>
+                          <div className="flex items-center text-auto-red">
+                            <Icon name="DollarSign" size={16} className="mr-2" />
+                            <span className="font-medium">Первый взнос от 0%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <div className="bg-auto-navy rounded-lg p-6 text-white">
+                  <div className="flex items-center mb-3">
+                    <Icon name="Shield" size={24} className="text-auto-red mr-3" />
+                    <h4 className="text-xl font-bold">Гарантия качества</h4>
+                  </div>
+                  <p className="opacity-90">
+                    Независимо от способа покупки, все автомобили проходят предпродажную подготовку и имеют официальную гарантию.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Contacts Section */}
       <section id="contacts" className="py-20 bg-auto-navy text-white">

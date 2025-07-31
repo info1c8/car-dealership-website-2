@@ -67,14 +67,7 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16 animate-slide-up">
             <h3 className="text-4xl font-bold text-auto-navy mb-4"></h3>
-            <p className="text-4xl text-red-600 font-medium">Добро пожаловать на наш сайт!
-
-Мы рады предложить вам удобные условия покупки автомобиля. У нас вы можете преобести машину как за наличный расчет, так и в кредит через надежные банковские партнеры. 
-
-Мы работаем 7 дней в неделю с 9 до 18:00
-
-Найдите идеальный автомобиль для себя! 
-</p>
+            <p className="text-4xl text-red-600 font-medium">Найдите идеальный автомобиль для себя!</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">

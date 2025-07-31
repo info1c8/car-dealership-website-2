@@ -169,8 +169,7 @@ const Index = () => {
                           Полная оплата автомобиля наличными средствами. Быстрое оформление и получение автомобиля в день покупки.
                         </p>
                         <div className="flex items-center text-green-600">
-                          <Icon name="CheckCircle" size={16} className="mr-2" />
-                          <span className="font-medium"></span>
+                          <span className="font-medium">Скидка до 50,000 ₽</span>
                         </div>
                       </div>
                     </div>

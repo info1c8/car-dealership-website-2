@@ -201,15 +201,7 @@ const Index = () => {
                   </CardContent>
                 </Card>
 
-                <div className="bg-auto-navy rounded-lg p-6 text-white">
-                  <div className="flex items-center mb-3">
-                    <Icon name="Shield" size={24} className="text-auto-red mr-3" />
-                    <h4 className="text-xl font-bold">Гарантия качества</h4>
-                  </div>
-                  <p className="opacity-90">
-                    Независимо от способа покупки, все автомобили проходят предпродажную подготовку и имеют официальную гарантию.
-                  </p>
-                </div>
+
               </div>
             </div>
           </div>

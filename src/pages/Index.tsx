@@ -208,7 +208,7 @@ const Index = () => {
                         <div className="space-y-2">
                           <div className="flex items-center text-auto-red">
                             <Icon name="Percent" size={16} className="mr-2" />
-                            <span className="font-medium">От 3.9% годовых</span>
+                            <span className="font-medium"></span>
                           </div>
                           <div className="flex items-center text-auto-red">
                             <Icon name="Calendar" size={16} className="mr-2" />

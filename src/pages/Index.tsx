@@ -57,16 +57,7 @@ const Index = () => {
           <div className="text-center animate-fade-in">
             <h2 className="text-5xl md:text-7xl font-bold mb-6">ГарантАвто </h2>
             <p className="text-xl md:text-2xl mb-8 opacity-90">Дорога начинается здесь!</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-auto-red hover:bg-red-600 text-white animate-scale-in">
-                <Icon name="Eye" size={20} className="mr-2" />
-                Смотреть каталог
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-auto-navy animate-scale-in">
-                <Icon name="Calculator" size={20} className="mr-2" />
-                Рассчитать кредит
-              </Button>
-            </div>
+
           </div>
         </div>
       </section>

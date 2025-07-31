@@ -212,7 +212,7 @@ const Index = () => {
                           </div>
                           <div className="flex items-center text-auto-red">
                             <Icon name="Calendar" size={16} className="mr-2" />
-                            <span className="font-medium">Срок до 7 лет</span>
+                            <span className="font-medium"></span>
                           </div>
                           <div className="flex items-center text-auto-red">
                             <Icon name="DollarSign" size={16} className="mr-2" />

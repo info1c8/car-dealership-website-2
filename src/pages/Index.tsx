@@ -141,7 +141,7 @@ const Index = () => {
               <h3 className="text-4xl font-bold text-auto-navy mb-8">График работы</h3>
               <div className="bg-white rounded-lg shadow-lg p-8">
                 <div className="space-y-4">
-                  <div className="flex justify-between items-center py-3 border-b border-gray-200">
+                  <div className="flex justify-between items-center py-3 border-b border-gray-200 rounded-none">
                     <span className="font-semibold text-auto-navy">Ежедневно без выходных</span>
                     <span className="text-gray-600">09:00 - 18:00</span>
                   </div>
@@ -169,7 +169,7 @@ const Index = () => {
                           Полная оплата автомобиля наличными средствами. Быстрое оформление и получение автомобиля в день покупки.
                         </p>
                         <div className="flex items-center text-green-600">
-                          <span className="font-medium">Скидка до 50,000 ₽</span>
+                          <span className="font-medium"></span>
                         </div>
                       </div>
                     </div>

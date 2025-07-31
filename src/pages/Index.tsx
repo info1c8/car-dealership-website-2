@@ -20,10 +20,10 @@ const Index = () => {
     },
     {
       id: 3,
-      name: "BlueCity Compact",
+      name: "Geely Coolray",
       price: "от 1,750,000 ₽",
       image: "/img/1bff271d-18e2-4e27-9813-3fb951f8b13c.jpg", 
-      features: ["Городской", "380 км", "Быстрая зарядка"]
+      features: ["Кроссовер", "Турбо", "Китайское качество"]
     }
   ];
 

@@ -138,16 +138,20 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Working Hours */}
             <div className="animate-fade-in">
-              <h3 className="text-4xl font-bold text-auto-navy mb-8">График работы</h3>
-              <div className="bg-white rounded-lg shadow-lg p-8">
-                <div className="space-y-4">
-                  <div className="flex justify-between items-center py-3 border-b border-gray-200 rounded-none">
-                    <span className="font-semibold text-auto-navy">Ежедневно без выходных</span>
-                    <span className="text-gray-600">09:00 - 18:00</span>
+              <h3 className="text-5xl font-bold text-auto-navy mb-12">График работы</h3>
+              <div className="bg-gradient-to-br from-white via-white to-gray-50 rounded-2xl shadow-2xl p-12 border border-gray-100">
+                <div className="text-center space-y-8">
+                  <div className="inline-flex items-center justify-center w-20 h-20 bg-auto-red rounded-full mb-6">
+                    <Icon name="Clock" size={36} className="text-white" />
                   </div>
-                  <div className="flex justify-between items-center py-3">
-                    <span className="font-semibold text-auto-navy"></span>
-                    <span className="text-gray-600"></span>
+                  <div className="space-y-6">
+                    <div className="bg-auto-navy rounded-xl p-8 text-white">
+                      <h4 className="text-2xl font-bold mb-4">Ежедневно без выходных</h4>
+                      <div className="text-3xl font-bold text-auto-red">09:00 - 18:00</div>
+                    </div>
+                    <p className="text-lg text-gray-600 leading-relaxed">
+                      Мы работаем каждый день, чтобы вы могли выбрать и купить автомобиль мечты в удобное время
+                    </p>
                   </div>
                 </div>
               </div>

@@ -187,7 +187,7 @@ const Index = () => {
                         </p>
                         <div className="flex items-center text-green-600">
                           <Icon name="CheckCircle" size={16} className="mr-2" />
-                          <span className="font-medium">Скидка до 50,000 ₽</span>
+                          <span className="font-medium"></span>
                         </div>
                       </div>
                     </div>

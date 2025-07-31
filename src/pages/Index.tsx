@@ -216,7 +216,7 @@ const Index = () => {
                           </div>
                           <div className="flex items-center text-auto-red">
                             <Icon name="DollarSign" size={16} className="mr-2" />
-                            <span className="font-medium">Первый взнос от 0%</span>
+                            <span className="font-medium"></span>
                           </div>
                         </div>
                       </div>
